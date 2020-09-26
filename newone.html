@@ -1,5 +1,6 @@
 <html>
 <head>
+	<meta name="viewport" content="width=device-width,intial-scale=1.0">
 <title>
 </title>
 <style>
@@ -7,22 +8,26 @@
 h2{
 	margin-top: 0px;
 	float:right;
-	outline-style: solid;
+	outline-style: line;
 	outline-color: black;
-	padding:5px ;
+	padding:5px 30px  ;
+	border: 1px;
+	margin-left: 10px;
 }
 
 
 div{
 background-color: grey;
 width: 30%;
-height: 200px;
-border:4px solid black;
+height: 100px;
+border:1px solid black;
 float: left;
+overflow:auto;
 
 }
 #one{
 	margin: 10px;
+	
 
 }
 #two{
@@ -46,10 +51,9 @@ float: left;
 	background-color:yellow;
 }
 p{
-	margin-top: 60px;
- margin-right: 10px;
-	margin-left: 10px;
-	margin-bottom: 10px;
+	
+	padding:30px;
+
 	
 
 }
@@ -57,44 +61,51 @@ h1{
 	text-align: center;
 	margin-top: 50px;
 }
-@media(min-width:992px){
-	#class{
-width:80%;
-	}
-	#one{
-		width:80%;
-	}
-	#two{
-		width:80%;
-	}
-}
+
+
+
 @media(min-width:768px) and (max-width: 991px){
 
 
 #class{
-	width:50%;
+	width:30%;
+	height: 200px;
 }
 #one{
-	width:50%;
+	width:30%;
+	height:200px;
 
 	
 }
 #two{
-	width:50%;
+	width:30%;
+	height:200px;
+	float:left;
+	
+	
 	
 }
 
 }
-@media(min-width: 767px){
+@media(min-width: 767px ){
 	#class{
 		width:30%;
+		height:200px;
+		
 	}
 	#one{
 		width:30%;
+		height:200px;
+		
+		
 	}
 	#two
 	{
 		width:30%;
+		height:200px;
+
+
+
 	}
 }
 </style>
